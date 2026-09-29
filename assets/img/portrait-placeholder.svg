@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="pp-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2ebdf"/>
+      <stop offset="55%" stop-color="#e7ddcb"/>
+      <stop offset="100%" stop-color="#d9cdb6"/>
+    </linearGradient>
+    <linearGradient id="pp-fig" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#14534c"/>
+      <stop offset="100%" stop-color="#0a2b28"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#pp-bg)"/>
+
+  <!-- engraved hairlines -->
+  <g stroke="#0a2b28" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 40h400M0 80h400M0 120h400M0 160h400M0 200h400M0 240h400M0 280h400M0 320h400M0 360h400M0 400h400M0 440h400M0 480h400"/>
+  </g>
+
+  <!-- soft halo -->
+  <circle cx="200" cy="195" r="118" fill="#fffdf9" fill-opacity="0.5"/>
+
+  <!-- shoulders -->
+  <path d="M200 300c-74 0-134 52-146 122h292c-12-70-72-122-146-122z" fill="url(#pp-fig)" fill-opacity="0.9"/>
+  <!-- head -->
+  <circle cx="200" cy="205" r="78" fill="url(#pp-fig)" fill-opacity="0.9"/>
+  <!-- collar hint -->
+  <path d="M200 300l-26 44 26 24 26-24-26-44z" fill="#faf6ef" fill-opacity="0.85"/>
+
+  <!-- brass arc, echoing the frame -->
+  <path d="M60 218a140 140 0 0 1 280 0" fill="none" stroke="#a8823f" stroke-opacity="0.55" stroke-width="1.5"/>
+</svg>
